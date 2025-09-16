@@ -33,6 +33,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+
 ### 3. Download data
 Fetch the last two seasons:
 ```bash
@@ -40,11 +41,13 @@ python src/data_download.py
 ```
 This saves raw data in data/raw/games_raw.csv.
 
-```bash
+
 ### 4. Preprocess
+```bash
 python src/preprocess.py
 ```
 Creates data/processed/games_preprocessed.csv.
+
 
 ### 5. Train the model
 ```bash
@@ -66,13 +69,14 @@ scoreB = predict_game(teamB_feat, teamA_feat)
 
 print(f"Predicted: Team A {scoreA:.1f} - Team B {scoreB:.1f}")
 
+
 ### 📊 Project Structure
 nba-score-predictor/
 ├─ data/               # raw & processed game data
 │  ├─ raw/
 │  └─ processed/
 ├─ models/             # saved ML models
-├─ notebooks/          # experiments, EDA
+├─ notebooks/          # experiments
 ├─ src/                # main source code
 │  ├─ data_download.py
 │  ├─ preprocess.py
@@ -83,5 +87,4 @@ nba-score-predictor/
 │  └─ utils.py
 ├─ tests/              # pytest unit tests
 ├─ requirements.txt
-├─ README.md
-└─ .gitignore
+└─  README.md

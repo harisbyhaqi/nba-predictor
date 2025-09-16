@@ -1,0 +1,22 @@
+# Data handling
+pandas>=2.0
+numpy>=1.25
+
+# Machine learning
+scikit-learn>=1.2
+joblib>=1.3
+
+# NBA data
+nba_api>=1.1
+
+# Progress bars (optional, useful for data download)
+tqdm>=4.65
+
+# Visualization (optional for plots)
+matplotlib>=3.8
+
+# Environment variables (optional if you want API keys)
+python-dotenv>=1.0
+
+# Testing
+pytest>=7.4

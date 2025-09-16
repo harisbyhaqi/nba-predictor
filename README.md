@@ -60,7 +60,7 @@ Trains a regression model and saves it in models/points_rf.joblib.
 Example usage:
 from src.predict import predict_game
 
-# Example features (replace with real preprocessed features)
+##### Example features (replace with real preprocessed features)
 teamA_feat = {"pts_last5": 110, "rest_days": 2, "home": 1}
 teamB_feat = {"pts_last5": 107, "rest_days": 1, "home": 0}
 

@@ -57,10 +57,11 @@ Trains a regression model and saves it in models/points_rf.joblib.
 
 
 ### 6. Predict a game
+```
 Example usage:
 from src.predict import predict_game
 
-##### Example features (replace with real preprocessed features)
+Example features (replace with real preprocessed features)
 teamA_feat = {"pts_last5": 110, "rest_days": 2, "home": 1}
 teamB_feat = {"pts_last5": 107, "rest_days": 1, "home": 0}
 
@@ -68,7 +69,7 @@ scoreA = predict_game(teamA_feat, teamB_feat)
 scoreB = predict_game(teamB_feat, teamA_feat)
 
 print(f"Predicted: Team A {scoreA:.1f} - Team B {scoreB:.1f}")
-
+```
 
 ### 📊 Project Structure
 ```

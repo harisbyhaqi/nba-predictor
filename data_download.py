@@ -1,4 +1,3 @@
-# src/data_download.py
 import pandas as pd
 from nba_api.stats.endpoints import leaguegamefinder
 from tqdm import tqdm

@@ -71,6 +71,7 @@ print(f"Predicted: Team A {scoreA:.1f} - Team B {scoreB:.1f}")
 
 
 ### 📊 Project Structure
+```
 nba-score-predictor/
 ├─ data/               # raw & processed game data
 │  ├─ raw/
@@ -88,3 +89,4 @@ nba-score-predictor/
 ├─ tests/              # pytest unit tests
 ├─ requirements.txt
 └─  README.md
+```

@@ -11,6 +11,7 @@ def download_seasons(seasons):
         df = lg.get_data_frames()[0]
         frames.append(df)
     out = pd.concat(frames, ignore_index=True)
+    print ("test")
     return out
 
 if __name__ == "__main__":
